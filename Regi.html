@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+ <style type="text/css">
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  background-image:url(13.jpg);
+background-position: center;
+background-size: cover;
+font-family:sans-serif;
+margin-top: 20px;
+}
+.regform{
+width: 800px;
+background-color:rgb(0,0,0,0.5);
+margin: auto;
+color:#fff;
+padding:10px 0px 10px 0px;
+text-align: center;
+border-radius:15px 15px 0px 0px;
+}
+.main{
+background-color:rgb(0,0,0,0.5);
+width:800px;
+margin: auto;
+}
+.form{
+padding:10px;
+}
+name{
+width:100%;
+height:90px;
+}
+.name{
+margin-left:25px;
+margin-top:30px;
+width:125px;
+color:white;
+font-size:18px;
+font-weight:700;
+border-radius: 5px;
+}
+.firstname{
+position:relative;
+left:200px;
+top:-37px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+}
+.lastname{
+position:relative;
+left:417px;
+top:-80px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+color:#555;
+}
+.firstlabel{
+position:relative;
+left:203px;
+top:-45px;
+text-transform:capitalize;
+font-size:14px;
+color:white;
+}
+.lastlabel{
+position:relative;
+left:200px;
+top:-47px;
+text-transform:capitalize;
+font-size:14px;
+color:white;
+}
+.DOB{
+position: relative;
+left: 180px;
+top:-36px;
+line-height:30px;
+width:480px;
+border-radius: 5px;
+font-size: 16px;
+color: #fff;
+}
+.student{
+position: relative;
+line-height:40px;
+width:480px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 20px;
+color: #fff;
+}
+.radio{
+display:inline-block;
+padding-right:70px;
+font-size:25px;
+margin-left:25px;
+margin-top:15px;
+color: #fff;
+}
+.radio input-one{
+width:20px;
+height:20px;
+border-radius:50%;
+cursor: pointer;
+outline: none;
+}
+.radio input-two{
+width:20px;
+height:20px;
+border-radius:50%;
+cursor: pointer;
+outline: none;
+}
+.nationality{
+position: relative;
+left: 180px;
+top:-35px;
+line-height:30px;
+width:480px;
+border-radius: 5px;
+font-size: 16px;
+color: #fff;
+}
+.mark{
+position: relative;
+line-height:40px;
+width:480px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 20px;
+color: #fff;
+}
+.marks{
+position:relative;
+left:25px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+width:480px;
+}
+.mtr{
+position: relative;
+line-height:40px;
+width:480px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 20px;
+color: #fff;
+}
+.exam{
+position:relative;
+left:25px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+width:480px;
+}
+.passing{
+position:relative;
+left:25px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+width:480px;
+}
+.roll{
+position:relative;
+left:25px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+width:480px;
+}
+.option{
+position:relative;
+left:25px;
+line-height:40px;
+border-radius:6px;
+padding:0 22px;
+font=size:16px;
+width:480px;
+}
+.st{
+position: relative;
+left: 125px;
+top:-35px;
+line-height:30px;
+width:480px;
+border-radius: 5px;
+padding:0 22px;
+font-size: 20px;
+color: #fff;
+}
+.email{
+position: relative;
+left: 125px;
+top:-35px;
+line-height:30px;
+width:480px;
+border-radius: 5px;
+padding:0 22px;
+font-size: 16px;
+color: #fff;
+}
+.code{
+position: relative;
+left: 100px;
+top:-35px;
+line-height:30px;
+width:75px;
+border-radius: 5px;
+padding:0 22px;
+font-size: 16px;
+color: #fff;
+}
+.number{
+position: relative;
+left:45px;
+top:-35px;
+line-height:40px;
+width:200px;
+border-radius:5px;
+padding:0 22px;
+font-size: 16px;
+color: #fff;
+}
+button{
+background-color: green;
+display:block;
+margin:20px 0px 0px 20px;
+text-align:center;
+border-radius:12px;
+border:2px solid #366473;
+padding: 14px 110px;
+outline:none;
+color:white;
+cursor:pointer;
+transition:0.25px;
+}
+button:hover{
+background-color:#5390F5;
+}
+</style>
+</head>
+<body>
+<div class="regform"><h1>Registration Form</h></div>
+<div class="main">
+<form>
+<div id="name">
+<h2 class="name">Name</h2>
+<input class="firstname" type="text" name="first_name"><br>
+<label class="firstlabel">first name</label>
+<input class="lastname" type="text" name="last_name">
+<label class="lastlabel">last name</label>
+</div>
+<h2 class="name">Father's name</h2>
+<input class="firstname" type="text" name="first_name"><br>
+<label class="firstlabel">first name</label>
+<input class="lastname" type="text" name="last_name">
+<label class="lastlabel">last name</label>
+<h2 class="name">Mother's name</h2>
+<input class="firstname" type="text" name="first_name"><br>
+<label class="firstlabel">first name</label>
+<input class="lastname" type="text" name="last_name">
+<label class="lastlabel">last name</label>
+<h2 class="name">Date of Birth</h2>
+<input class="DOB" type="date">
+<h2 class="student">Gender</h2>
+<label class="radio">
+<input class="radio-one" type="radio" checked="checked" name="">
+<span class="checkmark"></span>
+Mail
+</label>
+<label class="radio">
+<input class="radio-two" type="radio" name="">
+<span class="checkmark"></span>
+Female
+</label>
+<h2 class="name">Nationality</h2>
+<input class="nationality" type="text" name="nationality">
+<h2 class="mark">Marks of visible Idenfication</h2>
+<input class="marks" type="text" name="marks">
+<h2 class="mtr">Matriculation(10th Class)Examination Bord</h2>
+<input class="exam" type="text" name="exam">
+<h2 class="mtr">Matriculation(10th Class)Roll-No</h2>
+<input class="roll" type="text" name="roll">
+<h2 class="mtr">Matriculation(10th Class)Year of passing</h2>
+<input class="passing" type="text" name="passing">
+<h2 class="mtr">Higher Qualification</h2>
+<select class="option" name="higher">
+<option disabled="disabled" selected="selected">--choose option</option>
+<option>Graduate</option>
+<option>Postgraduate</option>
+<option>Certificate</option>
+<option>10th</option>
+<option>12th</option>
+</select>
+<h2 class="name">State</h2>
+<input class="st" type="text" name="state">
+<h2 class="name">City</h2>
+<input class="st" type="text" name="city">
+<h2 class="name">Phone</h2>
+<input class="code" type="text" name="area_code">
+<label class="area-code">Area Code</label>
+<input class="number" type="text" name="phone">
+<label class="phone-number">Phone Number</label>
+<h2 class="name">Email Id</h2>
+<input class="email" type="text" name="email">
+<button type="submit">Register</button>
+</form>
+</div>
+</body>
+</html>
